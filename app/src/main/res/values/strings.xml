@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImaginaryNumbersCalculator</string>
+    <string-array name="math_operations">
+        <item>Select operation</item>
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>
