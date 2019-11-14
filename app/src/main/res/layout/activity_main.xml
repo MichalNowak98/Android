@@ -18,7 +18,8 @@
         android:ems="10"
         android:inputType="numberSigned|number|numberDecimal"
         app:layout_constraintStart_toEndOf="@+id/textViewB"
-        app:layout_constraintTop_toBottomOf="@+id/editTextARe" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextARe"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextARe"
@@ -31,7 +32,8 @@
         android:ems="10"
         android:inputType="numberSigned|number|numberDecimal"
         app:layout_constraintStart_toEndOf="@+id/textViewA"
-        app:layout_constraintTop_toBottomOf="@+id/textViewA2" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewRe"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/textViewA"
@@ -40,33 +42,33 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="88dp"
-        android:text="A:"
+        android:text="@string/A_number_label"
         android:textColor="#DDAA12"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewA2"
+        android:id="@+id/textViewRe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
         android:layout_marginLeft="104dp"
         android:layout_marginTop="36dp"
-        android:text="Re"
+        android:text="@string/Re_label"
         android:textColor="#DDAA12"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewA3"
+        android:id="@+id/textViewIm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="104dp"
         android:layout_marginRight="104dp"
-        android:text="Im"
+        android:text="@string/Im_label"
         android:textColor="#DDAA12"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +81,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="48dp"
-        android:text="B:"
+        android:text="@string/B_number_label"
         android:textColor="#DDAA12"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +98,8 @@
         android:ems="10"
         android:inputType="numberSigned|number|numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAIm" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextAIm"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextAIm"
@@ -109,7 +112,8 @@
         android:ems="10"
         android:inputType="numberSigned|number|numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewA3" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewIm"
+        android:importantForAutofill="no" />
 
     <Spinner
         android:id="@+id/calculatorSpinner"

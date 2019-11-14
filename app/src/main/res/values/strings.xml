@@ -7,4 +7,8 @@
         <item>*</item>
         <item>/</item>
     </string-array>
+    <string name="A_number_label">A:</string>
+    <string name="B_number_label">B:</string>
+    <string name="Re_label">Re</string>
+    <string name="Im_label">Im</string>
 </resources>
